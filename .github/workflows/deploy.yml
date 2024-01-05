@@ -27,7 +27,7 @@ env:
 
 jobs:
   build:
-    runs-on: [snowbuild-2x-ubuntu22.04]
+    runs-on: [snowbuild-2x-lite]
     steps:
       - uses: actions/checkout@v4
       - name: Build Writerside docs using Docker
